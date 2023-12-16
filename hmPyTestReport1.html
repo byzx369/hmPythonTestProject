@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>PyTestReport1</h1>
-<p class='attribute'><strong>Start Time:</strong> 2023-12-14 15:55:45</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00</p>
-<p class='attribute'><strong>Status:</strong> Pass 4</p>
+<p class='attribute'><strong>Start Time:</strong> 2023-12-15 22:04:14</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.001507</p>
+<p class='attribute'><strong>Status:</strong> Pass 7</p>
 
 <p class='description'>python3</p>
 </div>
@@ -222,16 +222,16 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>hmPyTest1.TestDemo</td>
-    <td>1</td>
-    <td>1</td>
+    <td>hmPyTest1.TestAdd</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_3</div></td>
+    <td class='none'><div class='testcase'>test_method1</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -245,7 +245,91 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: Test Method 3
+pt1.1: Test Pass
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_method2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: Test Pass
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_method3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: Test Pass
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>hmPyTest1.TestDemo</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: Test Method 3
 
 
         </pre>
@@ -261,28 +345,28 @@ pt1.1: Test Method 3
     <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',3)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c3',3)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
+<tr id='pt3.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_0_admin</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt2.2' class='hiddenRow'>
+<tr id='pt3.2' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_1_root</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt2.3' class='hiddenRow'>
+<tr id='pt3.3' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_2_admin</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>4</td>
-    <td>4</td>
+    <td>7</td>
+    <td>7</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
